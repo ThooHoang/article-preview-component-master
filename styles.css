@@ -152,3 +152,31 @@ main {
     color: var(--Light-Grayish-Blue);
     font-weight: 400;
 }
+
+
+@media (max-width: 744px) {
+
+    .card-container {
+        flex-direction: column;
+        
+    }
+
+    .image-container {
+        width: 100%;
+
+    }
+
+    .image-container img {
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .share-container {
+        bottom: 1px;
+        padding: block 2rem; ;
+        left: 0;
+        right: 0;
+        border-radius:  0 0 5px 5px;
+    }
+
+}
