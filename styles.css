@@ -97,6 +97,22 @@ main {
     
 }
 
+
+.name-date {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.name-date h2 {
+    color: var(--Very-Dark-Grayish-Blue);
+    font-size: 13px;
+}
+
+.name-date p {
+    color: var(--Grayish-Blue);
+}
+
 .user img {
     border-radius: 50%;
     height: 50px;
@@ -106,4 +122,5 @@ main {
     background-color: var(--Light-Grayish-Blue);
     padding: 0.7rem;
     border-radius: 50%;
+    cursor: pointer;
 }
