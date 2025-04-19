@@ -64,6 +64,7 @@ main {
     margin: auto;
     height: 290px;
     width: 500px;
+    position: relative;
     
 }
 
@@ -123,4 +124,31 @@ main {
     padding: 0.7rem;
     border-radius: 50%;
     cursor: pointer;
+}
+
+
+.share-container {
+    background-color: var(--Very-Dark-Grayish-Blue);
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    display: flex;
+    gap: 24px;
+    position: absolute;
+    right: -15%;
+    bottom: 30%;
+    
+}
+
+.hidden {
+    display: none;
+}
+
+.share-container img {
+    cursor: pointer;
+}
+
+
+.share-container span{
+    color: var(--Light-Grayish-Blue);
+    font-weight: 400;
 }
