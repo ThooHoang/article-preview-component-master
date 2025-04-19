@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+
+:root {
+   --Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
+   --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+   --Grayish-Blue: hsl(212, 23%, 69%);
+   --Light-Grayish-Blue: hsl(210, 46%, 95%);
+   --font-family: "Manrope", sans-serif;
+}
+
+
+body {
+    background-color: var(--Light-Grayish-Blue);
+    font-size: 13px;
+    font-family: var(--font-family);
+}
+
+
+/* Main */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Card */
+.card-container {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    max-width: 730px;
+    margin: 5rem auto;
+    box-shadow: 0 40px 40px -10px rgba(201, 213, 225, 0.5);
+    border-radius: 10px;
+
+}
+
+/* Main Image */
+
+.image-container img {
+    border-radius:10px 0 0 10px ;
+    width: 300px;
+    height: 290px;
+    display: block;
+
+}
+
+
+/* Text Container */
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    margin: auto;
+    height: 290px;
+    width: 500px;
+    
+}
+
+.heading h1 {
+    color: var(--Very-Dark-Grayish-Blue);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    padding-bottom: 1rem;
+}
+
+.heading p {
+    color: var(--Desaturated-Dark-Blue);
+    font-weight: 400;
+}
+
+
+
+/* Share Section */
+
+.share {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user {
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.user img {
+    border-radius: 50%;
+    height: 50px;
+}
+
+.share-icon {
+    background-color: var(--Light-Grayish-Blue);
+    padding: 0.7rem;
+    border-radius: 50%;
+}
